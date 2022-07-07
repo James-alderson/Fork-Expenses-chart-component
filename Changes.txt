@@ -1,0 +1,43 @@
+--- Remove || Rename || Create ----
+1. Removed 404.html
+2. Removed contact.html
+3. Removed sandbox.config.json
+4. Removed favicon.ico
+5. Removed favicon.svg
+6. Removed package.json
+7. Removed folders on the assets folder
+8. Created Files folder and add project files (Downloaded on frontend mentore)
+9. Moved project files to assets folder (any file to Its own folder)
+10. Renamed index.js file to chart.js
+11. Added favicon.ico on images folder
+12. Added git to project
+13. Created .gitignore file and ignore Files folder
+14. Removed README.md file and add README-template.md file (README file should write on README-template.md file and finally change name to README.md)
+15. Define the library before the body tag, because when the page is loaded, the library is loaded first and then the content in the body tag is loaded. This will make the chart load faster (Because the chart is supposed to be loaded asynchronously after the library is loaded(because get data chart from json file))
+
+---- Solution ----
+**** HTML ****
+1. There is no need to comment inside the HTML codes, because the HTML codes are easily readable, except in special circumstances.
+2. Not need to add / to end of tags single.
+3. If you are using VS Code, it is better to use the Prettier extension to organize codes, otherwise you can use the https://www.10bestdesign.com/dirtymarkup/ website
+4. Not use inline-style for style; write styles in style.css
+5. It is better to add web fonts in the CSS file, because in this case your HTML codes will be seen regularly.
+6. replace box-sizing style: border-box; in the star selector, because in this case this style will be applied to all HTML elements.
+7. You can use semantic tags in HTML (Of course, you don't need it much in this project)
+8. You no longer need to use type="text/javascript".
+9. 
+
+**** CSS ****
+1. It is better to use css custom property styles.
+2. All about (colors, fontsize) writed on style-guide.md
+3. Replaced new method on old method to create project (this project not needed to use position property, This is because the styles must be redefined for both mobile and desktop sizes)
+4. Use margin instead of transform
+5. 
+
+**** JS ****
+1. Replaced new method on old method to create project
+2. Create chart is no have labels and data, because get labels and data with Fetch from data.json
+3. Change and remove defalut styles
+4. Get data from data.json file
+5. After load the website, added data in the labels and data arrays
+6. 
