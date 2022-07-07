@@ -1,0 +1,26 @@
+---- Solutions ----
+**** HTML ****
+1. There is no need to comment inside the HTML codes, because the HTML codes are easily readable, except in special circumstances.
+2. Not need to add / to end of tags single.
+3. If you are using VS Code, it is better to use the Prettier extension to organize codes, otherwise you can use the https://www.10bestdesign.com/dirtymarkup/ website
+4. Not use inline-style for style; write styles in style.css
+5. It is better to add web fonts in the CSS file, because in this case your HTML codes will be seen regularly.
+6. replace box-sizing style: border-box; in the star selector, because in this case this style will be applied to all HTML elements.
+7. You can use semantic tags in HTML (Of course, you don't need it much in this project)
+8. You no longer need to use type="text/javascript".
+9. 
+
+**** CSS ****
+1. It is better to use css custom property styles.
+2. All about (colors, fontsize) writed on style-guide.md
+3. Replaced new method on old method to create project (this project not needed to use position property, This is because the styles must be redefined for both mobile and desktop sizes)
+4. Use margin instead of transform
+5. 
+
+**** JS ****
+1. Replaced new method on old method to create project
+2. Create chart is no have labels and data, because get labels and data with Fetch from data.json
+3. Change and remove defalut styles
+4. Get data from data.json file
+5. After load the website, added data in the labels and data arrays
+6. 
