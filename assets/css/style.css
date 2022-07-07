@@ -1,56 +1,124 @@
-body {
-  box-sizing: border-box;
-  background-color: hsl(27, 66%, 92%);
-  align-items: center;
-  font-family: "DM Sans", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+:root {
+	--Soft-red: hsl(10, 79%, 65%);
+	--Cyan: hsl(186, 34%, 60%);
+	--Dark-brown: hsl(25, 47%, 15%);
+	--Medium-brown: hsl(28, 10%, 53%);
+	--Cream: hsl(27, 66%, 92%);
+	--Very-pale-orange: hsl(30, 100%, 98%);
 }
+
+* {
+	box-sizing: border-box;
+}
+
+/*
+  {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+  }
+  this method best way to placed vertically and horizontally element on the body center. (I'm use this method)
+*/
+body {
+	display: grid;
+	height: 100vh;
+	place-items: center;
+	color: var(--Dark-brown);
+	font-family: "DM Sans", sans-serif;
+	line-height: 1.5;
+	margin: 0;
+	background-color: var(--Cream);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1;
+	margin: 1rem 0;
+}
+
+/* ---- Card styles ---- */
+.card {
+	width: 485px;
+	margin: 2rem 1rem;
+	border-radius: 19px;
+}
+
+.card span {
+	font-size: 1rem;
+}
+
 .heading {
-  align-self: center;
-  background-color: hsl(10, 79%, 65%);
-  border-radius: 10px;
-  color: white;
-  margin-top: 5%;
-  margin-left: 25%;
-  margin-right: 25%;
-  height: 7%;
+	display: flex;
+	color: var(--Very-pale-orange);
+	padding: 1.5rem 2rem;
+	margin-bottom: 1.2rem;
+	justify-content: space-between;
+	border-radius: 18px;
+	background-color: var(--Soft-red);
+}
+
+.heading span {
+	color: var(--Cream);
+}
+.heading h4 {
+	font-size: 1.7rem;
+	margin: 0.45rem 0 0;
 }
 
 .logo {
-  position: relative;
-  float: right;
-  padding-right: 10px;
-  transform: translateY(-30px);
+	max-width: 65px;
+	margin-top: 0.3rem;
 }
-.graph {
-  background-color: white;
-  height: 60%;
 
-  border-radius: 20px;
-  margin-left: 25%;
-  margin-right: 25%;
+.graph {
+	padding: 2rem;
+	border-radius: 18px;
+	background-color: var(--Very-pale-orange);
 }
-.graph p:first-child {
-  font-weight: bold;
-  font-size: 22px;
-  padding-top: 6px;
-  padding-left: 1em;
+
+.graph h3 {
+	font-size: 1.8rem;
+	margin: 0;
 }
-.end {
-  padding-top: 1em;
-  padding-left: 1em;
-}
-.divider {
-  background-color: hsl(28, 10%, 53%);
-  border-radius: 4px;
-  width: 90%;
-  margin-right: 42px;
-}
+
 #myChart {
-  align-items: center;
+	width: 100%;
+	max-height: 185px;
+	margin: 2.5rem 0 1.5rem 0;
 }
-.right {
-  padding-right: 1em;
-  float: right;
-  transform: translateY(-130px);
-  color: hsl(28, 10%, 53%);
+
+.divider {
+	width: 100%;
+	height: 2px;
+	margin: 1.5rem 0;
+	background-color: var(--Cream);
+}
+
+.graph-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.graph-content span {
+	color: var(--Medium-brown);
+}
+.graph-content h2 {
+	font-size: 2.6rem;
+	margin: 0.5rem 0 0 0;
+}
+.graph-content h6 {
+	font-size: 1rem;
+	line-height: 0.9;
+	margin: 0;
+}
+
+.graph-content .right {
+	text-align: right;
+	align-self: flex-end;
 }
