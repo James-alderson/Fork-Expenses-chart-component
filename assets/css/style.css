@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  background-color: hsl(27, 66%, 92%);
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+}
+.heading {
+  align-self: center;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 10px;
+  color: white;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 7%;
+}
+
+.logo {
+  position: relative;
+  float: right;
+  padding-right: 10px;
+  transform: translateY(-30px);
+}
+.graph {
+  background-color: white;
+  height: 60%;
+
+  border-radius: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.graph p:first-child {
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 6px;
+  padding-left: 1em;
+}
+.end {
+  padding-top: 1em;
+  padding-left: 1em;
+}
+.divider {
+  background-color: hsl(28, 10%, 53%);
+  border-radius: 4px;
+  width: 90%;
+  margin-right: 42px;
+}
+#myChart {
+  align-items: center;
+}
+.right {
+  padding-right: 1em;
+  float: right;
+  transform: translateY(-130px);
+  color: hsl(28, 10%, 53%);
+}

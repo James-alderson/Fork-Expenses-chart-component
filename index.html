@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Epilogue&family=Space+Mono&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="heading">
+      <p
+        style="
+          padding-top: 1em;
+          padding-left: 1em;
+          transform: translateY(15px);
+        "
+      >
+        My balance
+      </p>
+      <p style="font-weight: bold; font-size: 25px; padding-left: 0.5em;">
+        $921.48 <img src="logo.svg" alt="logo" class="logo" />
+      </p>
+    </div>
+    <div class="graph">
+      <p>
+        Spending - Last 7 days
+      </p>
+      <canvas id="myChart" style="width: 100%; max-width: 600px;"></canvas>
+      <hr class="divider"/>
+      
+      
+        <div class="end">
+        
+       <p style=" color:hsl(28, 10%, 53%); font-weight:normal;
+       font-size: 14px;padding-left:5px;transform:translateY(5%); ">Total this month</p> 
+      <p style="font-size: 29px; font-weight: bold; padding-top:none; padding-bottom:8px;">  $478.33</p>
+      <div class="right">
+       <p style="font-size: 16px;font-weight: bold; padding-left:62%;">
+         +2.4%
+        </p>
+        
+        <p > from-last month</p>
+   
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
