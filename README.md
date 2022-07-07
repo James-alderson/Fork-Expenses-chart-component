@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/expense-chart-component-d8bDp3cqSY)
-- Live Site URL: [Live Demo](https://vanimehta.github.io/csb-ttyby8/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/expenses-chart-component-oKycETyIkK)
+- Live Site URL: [Live Demo](https://james-alderson.github.io/Fork-Expenses-chart-component/)
 
 ## My process
 
@@ -52,4 +52,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@VANIMEHTA](https://www.frontendmentor.io/profile/VANIMEHTA)
+- Frontend Mentor - [@James-alderson](https://www.frontendmentor.io/profile/James-alderson)
