@@ -10,7 +10,6 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -32,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](#)
-- Live Site URL: [Live Demo](#)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/expense-chart-component-d8bDp3cqSY)
+- Live Site URL: [Live Demo](https://vanimehta.github.io/csb-ttyby8/)
 
 ## My process
 
@@ -53,4 +52,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@#](#)
+- Frontend Mentor - [@VANIMEHTA](https://www.frontendmentor.io/profile/VANIMEHTA)
